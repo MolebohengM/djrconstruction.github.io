@@ -1,0 +1,437 @@
+/* GALLERY AND EVENTS */
+*{
+    cursor: pointer;
+}
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+}  
+.banner img{
+    width: 25px;
+    color: #ff0000;
+}
+.navbar{
+    width: 85%;
+    margin:auto;
+    padding:28px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    
+}
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    font-family: "roxie rossa";
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:white;
+    transform: uppercase;
+
+}
+.navbar ul li::after{
+
+    content: '';
+    height:3px;
+    width: 0%;
+    background:red;
+    position: absolute;
+    left: 0;
+    bottom:-2px;
+    transition: 0.5s;
+    cursor:pointer;
+}
+.navbar ul li:hover::after{
+    width:100%;
+}
+.button{
+    padding:6px 24px;
+    border:2px solid #ff0000;
+    background: transparent;
+    border-radius: 6px;
+    cursor:pointer;
+    color: #fff;
+    font-family: monospace;
+}
+.button:active{
+    transform: scale(0.98);
+}
+select{
+    background:transparent;
+    color: #fff;
+    border: none;
+}
+option{
+    color:black;
+}
+
+.hero-sec h1{
+    font-size: 68px;
+    line-height: 85px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: "Dancing Script", cursive;
+    transition: 0.5s;
+}
+.hero-sec h1:hover{
+	-webkit-text-stroke:2px #fff;
+	color:transparent;
+	
+}
+.hero-sec h2{
+    font-size: 28px;
+    text-transform: uppercase;
+    color:white;
+}
+.what-we-do{
+    padding:12px 26px;
+    border:2px solid #ff0000;
+    background:#ff0000;
+    border-radius: 2px;
+    cursor:pointer;
+    color: white;
+}
+.what-we-do a{
+    color: white;
+    text-decoration: none;
+}
+.what-we-do:hover{
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #ff0000;
+}
+
+.quote{
+    padding:12px 26px;
+    border:2px solid #ff0000;
+    background:#ff0000;
+    border-radius: 2px;
+    cursor:pointer;
+    color: white;
+}
+.quote:hover{
+    background-color: darkred;
+    border: 2px solid darkred;
+}
+.quote a{
+    color: white;
+    text-decoration: none;
+}
+#contact-details{
+    width: 820px;
+}
+.hero-sec svg{
+    color: red;
+}
+/*Hero section end*/
+#gallery{
+    width: 1000px;
+}
+#card{
+    background-color:snow;
+}
+#nd-gallery{
+    margin-top:-22px;
+    width: 1000px;
+}
+.hero{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/bg1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    width: 100%;
+    min-height: 100vh;
+  }
+.container p{
+    text-align: center;
+    font-size: 18px;
+  }
+  .container h1{
+    text-align: center;
+    font-size: 38px;
+  }
+  .container span{
+    color:#ff0000;
+    border-bottom: 3px solid#ff0000;
+
+  }
+  .order:hover{
+    background-color: darkred;
+    border: 2px solid darkred;
+  }
+  .container{
+    width: 900px;
+  }
+.content{
+    display: flex;
+    text-align: left;
+    width: 100%;
+    align-items: center;
+
+}
+.columns{
+    display: flex;
+}
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.about-image{
+    flex:1;
+    margin-right:40px;
+    overflow: hidden;
+}
+.about-image img{
+    max-width: 100%;
+    height:auto;
+    display: block;
+
+
+}
+
+.about-content{
+    flex:1;
+    padding: 0px;
+}
+.about-content h1{
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: 800;
+   
+}
+.read-more{
+    padding:6px 20px;
+    border:2px solid #ff0000;
+    background:#ff0000;
+    border-radius: 6px;
+    cursor:pointer;
+    color: white;
+}
+.read-more:hover{
+    background-color: darkred;
+    border: 2px solid darkred;
+}
+span{
+    color:darkslategrey;
+}
+
+.about-content p{
+    font-size: 13px;
+}
+h2{
+    font-size: 24px;
+    color:darkslategrey;
+}
+h4{
+    font-size: 16px;
+    color:darkslategrey;
+}
+/*Founders Section*/
+.card-body img{
+    border-radius: 50%;
+    width: 165px;
+    
+}
+.card-body{
+    margin-left: 15px;
+}
+.card-body h5{
+    font-size: 16px;
+    margin-top: 8px;
+    color:darkslategrey
+}
+.btn{
+    background-color: black;
+    color: #fff;
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 0px 12px;
+}
+.card-body p{
+    text-align: left;
+    font-size: 13px;
+}
+.wrapper{
+    width: 100%;
+    align-items: center;
+
+}
+.wrapper{
+    width:900px;
+    margin:0 auto;
+
+}
+.wrapper{
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container{
+    width:90%;
+    margin:0 auto;
+    padding:10px 20px;
+}
+.show-more{
+    background-color: #ff0000;
+    color: #fff;
+    padding: 0px 18px;
+}
+/*our services*/
+#services img{
+    border-radius: 0px;
+    width: 165px;
+    text-align: center;
+    align-self: center;
+   
+}
+#services{
+    margin-left: 0px;
+}
+.services img{
+    border-radius: 0px;
+    width: 210px;
+    margin-left: 0px;
+}
+#serv{
+    margin-left: 0px;
+}
+.order{
+    width: 100%;
+    background-color: #ff0000;
+    color: #fff;
+    border: 2px solid #ff0000;
+
+}
+#no-border{
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.2);
+}
+
+/*Our Projects*/
+#h5{
+    font-size:18px;
+    text-transform: uppercase;
+    padding:0px;
+}
+.close{
+    text-decoration: none;
+    border: none;
+}
+
+#second{
+    margin-top: -45px;
+}
+#projects-width{
+    width: 1100px;
+}
+.header{
+    margin: 0;
+    padding: 0;
+    align-items: end;
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+#heading span{
+    color:#ff0000;
+    border-bottom: 3px solid#ff0000;
+}
+#heading{
+    font-size: 38px;
+    text-align: center;
+}
+
+svg{
+    color: goldenrod;
+    font-size: 40px;
+}
+.aboutus{
+    background-color: black ;
+}
+.btn svg{
+    color:#fff
+}
+.contact-us{
+    text-align: center;
+    width: 100%;
+    min-height: 100vh;
+    background-color: transparent;    
+
+}
+.details{
+    width: 100%;
+    max-width: 550px;
+    background: #ccc;
+    margin: 40px 30px 70px;
+    margin: 100px auto 20px;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.contact-us form input, textarea{
+    padding: 10px;
+    margin-left: 60px;
+    width: 80%;
+    padding: 15px;
+    margin-top: 8px;
+    outline: none;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+.btn-hero{
+    margin-left: 60px;
+    padding:6px 20px;
+    border:2px solid #ff0000;
+    background:#ff0000;
+    border-radius: 6px;
+    cursor:pointer;
+    color: white;
+}
+.btn-hero:hover{
+    background-color: darkred;
+    border: 2px solid darkred;
+}
+.contact-us h2{
+    text-align: center;
+    
+}
+.details p{
+     text-align: center;
+}
+.icons{
+    display: flex;
+}
+.icons{
+    margin-left: 65px;
+    margin-bottom: 45px;
+}
+.icons span{
+    visibility: hidden;
+}
+.icons svg{
+    color: black;
+    width: 22pxs;
+}
+
+
+/*Modal*/
+
+
